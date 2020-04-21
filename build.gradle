@@ -1,0 +1,61 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.6.1'
+        classpath 'com.novoda:bintray-release:0.9.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+    tasks.withType(Javadoc) { // 新增
+        options.addStringOption('Xdoclint:none', '-quiet')
+        options.addStringOption('encoding', 'UTF-8')
+    }
+//    tasks.getByPath(":NiceVideoPlayerMoudle:javadocRelease").enabled = false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+
+    android = [
+            compileSdkVersion: 29,
+            minSdkVersion    : 16,
+            targetSdkVersion : 29,
+            buildToolsVersion:"28.0.3",
+            versionCode      : 1,
+            versionName      : "1.0.0"
+    ]
+
+
+    versions = [
+            filedownloader : "1.7.5",
+            androidx       : "1.1.0",
+            glide          : "3.6.0",
+
+    ]
+
+
+    dependencies = [
+            glide                       : "com.github.bumptech.glide:glide:${versions.glide}",
+            androidx                    : "androidx.appcompat:appcompat:${versions.androidx}",
+            filedownloader              : "com.liulishuo.filedownloader:library:${versions.filedownloader}",
+    ]
+}

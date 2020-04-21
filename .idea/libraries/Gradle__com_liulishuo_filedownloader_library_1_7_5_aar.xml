@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.liulishuo.filedownloader:library:1.7.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/gradle-6.3-rc-1/caches/transforms-2/files-2.1/8bc1d3d58dc94bd88a782a265749ca56/jetified-library-1.7.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/gradle-6.3-rc-1/caches/transforms-2/files-2.1/8bc1d3d58dc94bd88a782a265749ca56/jetified-library-1.7.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/gradle-6.3-rc-1/caches/modules-2/files-2.1/com.liulishuo.filedownloader/library/1.7.5/7a1c8563054afd62f1ba8b98cb81e8297d22a52e/library-1.7.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/gradle-6.3-rc-1/caches/modules-2/files-2.1/com.liulishuo.filedownloader/library/1.7.5/6553052df664b89a8c73589586c259a096bc9ad8/library-1.7.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

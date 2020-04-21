@@ -1,0 +1,8 @@
+# Project exclude paths
+/.gradle/
+/app/build/
+/app/build/intermediates/javac/debug/classes/
+/app/build/intermediates/javac/debugUnitTest/classes/
+/NiceVideoPlayerMoudle/build/
+/NiceVideoPlayerMoudle/build/intermediates/javac/debug/classes/
+/NiceVideoPlayerMoudle/build/intermediates/javac/debugUnitTest/classes/

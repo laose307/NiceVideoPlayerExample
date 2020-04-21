@@ -1,0 +1,62 @@
+apply plugin: 'com.android.library'
+//推荐放在module的gradle依赖文件的开头
+apply plugin: 'com.novoda.bintray-release'
+
+
+//推荐放在module的gradle依赖文件的最后面
+publish {
+    //userOrg这个是用户的组织，我们创建的是个人帐号，也就是我们的用户名（后续会介绍，必须一致，改成你自己的bintrayName）
+    userOrg = 'laose'
+    //我们的组id 类比'com.github.bumptech.glide:glide:3.7.0' 中的 com.github.bumptech.glide 这一部分
+    groupId = 'com.laose'
+    //原型id 类比'com.github.bumptech.glide:glide:3.7.0' 中的glide这一部分
+    artifactId = 'NiceVideoPlayerMoudle'
+    //版本号 类比'com.github.bumptech.glide:glide:3.7.0' 中的3.7.0 这一部分。很重要，我们在更新aar文件的时候需要提升版本号，类似更新apk
+    publishVersion = '0.0.1'
+    //描述，大致介绍自己的类库
+    desc = '图片+视频轮播插件'
+    //网址，可以写自己的github项目页面等
+    website = 'https://github.com/laose307/NiceVideoPlayerExample'
+
+}
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    //    implementation 'tv.danmaku.ijk.media:ijkplayer-java:0.8.3'
+    //    //    compile 'tv.danmaku.ijk.media:ijkplayer-exo:0.8.3'
+    //    implementation 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.3'
+    //    implementation 'tv.danmaku.ijk.media:ijkplayer-armv5:0.8.3'
+    //    //    implementation 'tv.danmaku.ijk.media:ijkplayer-arm64:0.8.3'
+    //    implementation 'tv.danmaku.ijk.media:ijkplayer-x86:0.8.3'
+    //    compile 'tv.danmaku.ijk.media:ijkplayer-x86_64:0.8.3'
+
+    //    api 'com.github.bumptech.glide:glide:4.0.0'
+    implementation project(':ijkplayer-java')
+    implementation project(':ijkplayerso')
+    api rootProject.ext.dependencies.glide
+    api rootProject.ext.dependencies.filedownloader
+    api rootProject.ext.dependencies.androidx
+
+
+}

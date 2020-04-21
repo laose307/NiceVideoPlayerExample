@@ -1,0 +1,2 @@
+rootProject.name='NiceVideoPlayerExample'
+include ':app', ':ijkplayer-java', ':baseutilsmoudle', ':NiceVideoPlayerMoudle', ':ijkplayerso'

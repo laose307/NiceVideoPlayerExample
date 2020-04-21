@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wsl.fjsoft.com.nicevideoplayermoudle" />
+
+<!--引用说明-->
+<!--1.Activity_ADVideo就是demo-->
+<!--2.在AndroidManifest注册Activity_ADVideo跟WebActivity-->
+<!--3.界面退出去要释放播放器：ADRelativeLayout.onDestory();-->

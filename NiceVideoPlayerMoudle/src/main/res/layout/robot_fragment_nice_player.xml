@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--菜单+标题-->
+
+
+    <TextView
+        android:layout_marginTop="21px"
+        android:layout_centerHorizontal="true"
+        android:textSize="25px"
+        android:text="标题"
+        android:textStyle="bold"
+        android:id="@+id/text_title"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginRight="10px"
+        android:layout_marginTop="10px"
+        android:layout_alignParentRight="true"
+        android:id="@+id/imgBtn_back"
+        android:background="@drawable/btn_fragment_web_back"
+        android:layout_width="41px"
+        android:layout_height="41px" />
+
+    <View
+        android:id="@+id/view_baseline"
+        android:layout_marginTop="21px"
+        android:layout_below="@+id/text_title"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_line_web_main"
+        android:layout_width="wrap_content"
+        android:layout_height="2px"/>
+<FrameLayout
+    android:layout_marginTop="2px"
+    android:layout_below="@+id/view_baseline"
+    android:id="@+id/RelativeLayout_1"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</FrameLayout>
+
+</RelativeLayout>
