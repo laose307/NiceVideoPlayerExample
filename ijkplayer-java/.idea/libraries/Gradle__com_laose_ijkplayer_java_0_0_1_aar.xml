@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.laose:ijkplayer-java:0.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/gradle-6.3-rc-1/caches/transforms-2/files-2.1/1d8ddc8fc19821a1e9c112adc2c6f4a2/jetified-ijkplayer-java-0.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/gradle-6.3-rc-1/caches/transforms-2/files-2.1/1d8ddc8fc19821a1e9c112adc2c6f4a2/jetified-ijkplayer-java-0.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/gradle-6.3-rc-1/caches/modules-2/files-2.1/com.laose/ijkplayer-java/0.0.1/9ab8d1b81074cc7aa7e92882ae044d4f00fbc088/ijkplayer-java-0.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/gradle-6.3-rc-1/caches/modules-2/files-2.1/com.laose/ijkplayer-java/0.0.1/d98fa9f66646d7ae59c23dcbd352eff6543f29d3/ijkplayer-java-0.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

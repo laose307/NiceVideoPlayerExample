@@ -21,6 +21,8 @@ import java.util.Map;
 
 import tv.danmaku.ijk.media.player.AndroidMediaPlayer;
 import tv.danmaku.ijk.media.player.IMediaPlayer;
+//import wsl.fjsoft.com.nicevideoplayermoudle.player.AndroidMediaPlayer;
+import tv.danmaku.ijk.media.player.IMediaPlayer;
 import tv.danmaku.ijk.media.player.IjkMediaPlayer;
 
 /**

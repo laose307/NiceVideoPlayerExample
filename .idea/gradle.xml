@@ -12,9 +12,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/NiceVideoPlayerMoudle" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/baseutilsmoudle" />
             <option value="$PROJECT_DIR$/ijkplayer-java" />
-            <option value="$PROJECT_DIR$/ijkplayerso" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

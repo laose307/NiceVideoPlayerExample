@@ -5,10 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/NiceVideoPlayerExample.iml" filepath="$PROJECT_DIR$/NiceVideoPlayerExample.iml" group="NiceVideoPlayerExample" />
       <module fileurl="file://$PROJECT_DIR$/baseutilsmoudle/NiceVideoPlayerExample-baseutilsmoudle.iml" filepath="$PROJECT_DIR$/baseutilsmoudle/NiceVideoPlayerExample-baseutilsmoudle.iml" group="NiceVideoPlayerExample/baseutilsmoudle" />
       <module fileurl="file://$PROJECT_DIR$/NiceVideoPlayerMoudle/NiceVideoPlayerMoudle.iml" filepath="$PROJECT_DIR$/NiceVideoPlayerMoudle/NiceVideoPlayerMoudle.iml" group="NiceVideoPlayerExample/NiceVideoPlayerMoudle" />
+      <module fileurl="file://$PROJECT_DIR$/baseutilsmoudle/TonglidaCode-NiceVideoPlayerExample-baseutilsmoudle.iml" filepath="$PROJECT_DIR$/baseutilsmoudle/TonglidaCode-NiceVideoPlayerExample-baseutilsmoudle.iml" group="NiceVideoPlayerExample/baseutilsmoudle" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="NiceVideoPlayerExample/app" />
       <module fileurl="file://$PROJECT_DIR$/baseutilsmoudle/baseutilsmoudle.iml" filepath="$PROJECT_DIR$/baseutilsmoudle/baseutilsmoudle.iml" group="NiceVideoPlayerExample/baseutilsmoudle" />
       <module fileurl="file://$PROJECT_DIR$/ijkplayer-java/ijkplayer-java.iml" filepath="$PROJECT_DIR$/ijkplayer-java/ijkplayer-java.iml" group="NiceVideoPlayerExample/ijkplayer-java" />
-      <module fileurl="file://$PROJECT_DIR$/ijkplayerso/ijkplayerso.iml" filepath="$PROJECT_DIR$/ijkplayerso/ijkplayerso.iml" group="NiceVideoPlayerExample/ijkplayerso" />
     </modules>
   </component>
 </project>

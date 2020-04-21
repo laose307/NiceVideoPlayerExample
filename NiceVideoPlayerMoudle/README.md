@@ -92,9 +92,12 @@ ext {
 ### 第四步
 在AndroidManifest.xml文件里，注册activity
 ```
+      //测试类，看效果
      <activity android:name="wsl.fjsoft.com.nicevideoplayermoudle.activity.Activity_ADVideo"/>
 
       <activity android:name="wsl.fjsoft.com.nicevideoplayermoudle.activity.WebActivity"/>
 
 ```
+## 引用
+
 
